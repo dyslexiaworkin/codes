@@ -1,0 +1,134 @@
+<html>
+<head>
+  <script src="A.js"></script>
+<style>
+  body{
+    font-size: 28px;
+    
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: none;
+   }
+li a:hover {
+  background-color: #111;
+
+}
+.active {
+  background-color: #4CAF50;
+}
+p{
+  text-align: center;
+  color:#ad807c;
+}
+h2{
+  color:#c2b2a1;
+}
+h4{
+  color:#d4c7e0;
+}
+button{
+  align-content:  center;
+  color:#181a16;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="center">Dyslexia Detection</h2>
+   
+  <h4 align="right"><i>"Pledge to be nice to every child we meet; one day a history be made with this simple deed!"</i></h4>
+</div>
+
+<ul>
+  <li><a href="/home/shivamsinghrathaur/Desktop/Home.html">Home</a></li>
+  <li><a class="active" href="#Dyslexia">Dyslexia</a></li>
+  <li><a href="/home/shivamsinghrathaur/Desktop/Survey.html">Survey</a></li>
+ 
+
+  
+</ul>
+
+  <p align="center">Ques 1. Check whether these two alphabets  are same or not.</br>
+       <img src="/home/shivamsinghrathaur/Desktop/O.png" width=200px height=220px>
+       <img src="/home/shivamsinghrathaur/Desktop/o.png" width=200px height=220px></br>
+      <input name="Q1" id="Yes" type="radio" value=5>Yes</br>
+      <input name="Q1" id="No" type="radio" value=0>No</br></p>
+
+    <p align="center">Ques 2. Guess the fruit.</br>
+      <img src="/home/shivamsinghrathaur/Desktop/grapes.jpg" width=400px height=440px></br>
+      <input name="Q2" id="Orange" type="radio" value=0>Orange</br>
+      <input name="Q2" id="Banana" type="radio" value=0>Banana</br>
+      <input name="Q2" id="Grapes" type="radio" value=5>Grapes</br>
+      <input name="Q2" id="Mango" type="radio" value=0>Mango</br></p>
+
+    <p align="center">Ques 3. Check whether these two alphabets  are same or not.</br>
+      <img src="/home/shivamsinghrathaur/Desktop/q.png" width=200px height=220px>
+      <img src="/home/shivamsinghrathaur/Desktop/p.png" width=200px height=220px></br>
+      <input name="Q3" id="Yes" type="radio" value=0>Yes</br>
+      <input name="Q3" id="No" type="radio" value=5>No</br></p>
+
+    <p align="center">Ques 4. Which letter is G?</br>
+      <img src="/home/shivamsinghrathaur/Desktop/C.png" width=200px height=220px>
+      <img src="/home/shivamsinghrathaur/Desktop/G.jpg" width=200px height=220px></br>
+      <input name="Q4" id="image1" type="radio" value=0>image1</br>
+      <input name="Q4" id="image2" type="radio" value=5>image2</br></p>
+
+    <p align="center">Ques 5. Which alphabet CAT starts with?</br>
+      
+      <input name="Q5" id="c" type="radio" value=5>C</br>
+      <input name="Q5" id="a" type="radio" value=0>A</br>
+      <input name="Q5" id="t" type="radio" value=0>T</br>
+      <input name="Q5" id="f" type="radio" value=0>F</br></p>
+
+      <p align="center">Ques 6. What is the smaller version of this letter?</br>
+       <img src="/home/shivamsinghrathaur/Desktop/B.png" width=200px height=220px></br>
+      <input name="Q6" id="Yes" type="radio" value=0>b</br>
+      <input name="Q6" id="No" type="radio" value=5>d</br></p>
+
+    <p align="center">Ques 7. What do you hear?</br>
+      <audio controls>
+      <source src="/home/shivamsinghrathaur/Desktop/ed.mpeg" type="audio/mpeg"></br>
+      </audio>
+      <input name="Q7" id="AB" type="radio" value=0>AB</br>
+      <input name="Q7" id="ED" type="radio" value=5>ED</br></p>
+
+    <p align="center">Ques 8. What do you see in the picture?</br>
+      <img src="/home/shivamsinghrathaur/Desktop/Dog.jpg" width=200px height=220px></br>
+      <input name="Q8" id="Yes" type="radio" value=0>DOG</br>
+      <input name="Q8" id="No" type="radio" value=5>GOD</br></p>
+
+    <p align="center">Ques 9. Which hand is left and which is right?</br>
+      <img src="/home/shivamsinghrathaur/Desktop/hands.jpg" width=200px height=220px></br>
+      <input name="Q9" id="image1" type="radio" value=5>First one is left and next one is right</br>
+      <input name="Q9" id="image1" type="radio" value=0>First one is right and next one is left</br></p>
+
+    <p align="center">Ques 10. What do you hear?</br>
+      <audio controls>
+      <source src="/home/shivamsinghrathaur/Desktop/cake.mpeg" type="audio/mpeg"></br>
+      </audio>
+      <input name="Q10" id="c" type="radio" value=5>cake</br>
+      <input name="Q10" id="l" type="radio" value=0>lake</br>
+      <input name="Q10" id="t" type="radio" value=0>take</br>
+      <input name="Q10" id="f" type="radio" value=0>fake</br></p>
+
+ <button onClick="d()" align="center">Submit</button>
+ </body>
+</html>
